@@ -8,6 +8,9 @@
     "start:dev": "SET NODE_ENV=dev&& nodemon .",
     "start:prod": "SET NODE_ENV=prod&& nodemon ."
   },
+  "engines": {
+    "node": "20.18.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
