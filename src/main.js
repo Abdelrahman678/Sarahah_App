@@ -4,7 +4,10 @@ import routerHandler from "./utils/router-handler.utils.js";
 import { config } from "dotenv";
 import path from "path";
 
-config({path:path.resolve(`src/config/.${process.env.NODE_ENV}.env`)});
+// config .env file
+config({path: path.resolve(`.env`)});
+
+// config({path:path.resolve(`src/config/.${process.env.NODE_ENV}.env`)});
 
 async function bootStrap() {
 
